@@ -31,29 +31,8 @@ public class ServiceCancionesImp implements ServiceCanciones{
 
     @Override
     public List<Canciones> ListCanciones() {
-        List<Canciones> canciones = (List<Canciones>) repositoryCanciones.findAll();
+        List<Canciones> canciones = repositoryCanciones.findAll();
         return canciones;
     }
     
-    /*
-    @Override
-    public Canciones addCanciones(Canciones canciones) {
-       return addCanciones(canciones);
-    }
-
-    @Override
-    public Canciones findCancionesById(int id) {
-        return findCancionesById(id);
-    }
-
-    @Override
-    public void DeletCanciones(int id) {
-    
-    }
-
-    @Override
-    public Canciones UpCanciones(Canciones canciones) {
-        return UpCanciones(canciones);
-    }
-    */
 }
