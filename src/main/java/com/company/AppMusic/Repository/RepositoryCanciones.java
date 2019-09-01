@@ -6,12 +6,12 @@
 package com.company.AppMusic.Repository;
 
 import com.company.AppMusic.Model.Canciones;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.JpaRepository;
 
 /**
  *
  * @author Notebook
  */
-public interface RepositoryCanciones extends CrudRepository<Canciones, Integer>{
+public interface RepositoryCanciones extends JpaRepository<Canciones, Integer>{
     
 }
